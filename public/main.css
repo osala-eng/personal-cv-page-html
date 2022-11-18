@@ -8,7 +8,10 @@ p {
     font-family: 'Abyssinica SIL', sans-serif;
     font-size: 14px;
 }
-
+#intro_section {
+    display: flex;
+    flex-direction: row;
+}
 #main_body {
     max-width: 900px;
     background-color: aqua;
@@ -46,7 +49,7 @@ p {
 #name {
     font-size: 80px;
     margin: 0;
-    color: #fff;
+    color: #161B40;
     text-align: center;
 }
 
@@ -58,7 +61,7 @@ p {
 
 #email, #tel_no{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #161B40;
 }
 
 .icon_style_class {

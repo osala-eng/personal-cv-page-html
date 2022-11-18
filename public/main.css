@@ -84,6 +84,6 @@ p {
     flex: 3;
 }
 
-#education_heading {
+#education_heading, #experience_heading {
     color: #161B40;
 }

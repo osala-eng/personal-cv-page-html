@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/public/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/public/constact.css">
     <title>Contact</title>
 </head>
+
 <body>
-    <h1 id="contact_heading">Contact</h1>
-    <form method="post">
-        <label for="email_field">Email</label>
-        <input type="text" id="email_field" name="email_field"><br><br>
-        <label for="message_field">Message</label>
-        <textarea name="message_field" id="message_field" cols="30" rows="10" type="text"></textarea>
-        <input type="button" value="Submit" id="submit_button">
-    </form>
+    <div id="contact_page">
+        <h1 id="contact_heading">Contact</h1>
+        <form method="post" id="contact_form">
+            <div class="input_element">
+                <label for="email_field">Email</label>
+                <input type="text" id="email_field" name="email_field"
+                 placeholder="email address"><br><br>
+            </div>
+            <div class="input_element">
+                <label for="message_field">Message</label>
+                <textarea name="message_field" id="message_field" cols="30" rows="10"
+                 placeholder="Enter message here..." type="text"></textarea>
+            </div>
+            <div class="input_element">
+                <input type="button" value="Submit" id="submit_button">
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+#contact_page {
+    max-width: 800px;
+    background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email_field {
+    width: max-content;
+}
+
+.input_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit_button{
+    margin: 20px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
